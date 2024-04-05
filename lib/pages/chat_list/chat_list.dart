@@ -386,6 +386,7 @@ class ChatListController extends State<ChatList>
         .listen(_processIncomingSharedFiles, onError: print);
 
     // For sharing images coming from outside the app while the app is closed
+    /*
     ReceiveSharingIntent.getInitialMedia().then(_processIncomingSharedFiles);
 
     // For sharing or opening urls/text coming from outside the app while the app is in the memory
@@ -394,6 +395,7 @@ class ChatListController extends State<ChatList>
 
     // For sharing or opening urls/text coming from outside the app while the app is closed
     ReceiveSharingIntent.getInitialText().then(_processIncomingSharedText);
+    */
 
     // For receiving shared Uris
     _intentUriStreamSubscription = linkStream.listen(_processIncomingUris);

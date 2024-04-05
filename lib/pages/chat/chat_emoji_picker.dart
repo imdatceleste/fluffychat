@@ -42,29 +42,52 @@ class ChatEmojiPicker extends StatelessWidget {
                           onEmojiSelected: controller.onEmojiSelected,
                           onBackspacePressed: controller.emojiPickerBackspace,
                           config: Config(
-                            emojiSizeMax: 32,
-                            gridPadding: EdgeInsets.zero,
-                            buttonMode: (Platform.isMacOS || Platform.isIOS)
-                                ? ButtonMode.CUPERTINO
-                                : ButtonMode.MATERIAL,
                             checkPlatformCompatibility: true,
-                            enableSkinTones: true,
-                            recentsLimit: 28,
-                            backspaceColor: theme.colorScheme.primary,
-                            bgColor:
-                                Theme.of(context).colorScheme.onInverseSurface,
-                            iconColor:
-                                theme.colorScheme.primary.withOpacity(0.5),
-                            iconColorSelected: theme.colorScheme.primary,
-                            indicatorColor: theme.colorScheme.primary,
-                            noRecents: const NoRecent(),
-                            skinToneDialogBgColor: Color.lerp(
-                              theme.colorScheme.background,
-                              theme.colorScheme.primaryContainer,
-                              0.75,
-                            )!,
-                            skinToneIndicatorColor:
-                                theme.colorScheme.onBackground,
+                            emojiViewConfig: EmojiViewConfig(
+                              backgroundColor: Theme.of(context)
+                                  .colorScheme
+                                  .onInverseSurface,
+                              gridPadding: EdgeInsets.zero,
+                              emojiSizeMax: 32 * (Platform.isIOS ? 1.20 : 1),
+                              recentsLimit: 28,
+                              buttonMode: (Platform.isMacOS || Platform.isIOS)
+                                  ? ButtonMode.CUPERTINO
+                                  : ButtonMode.MATERIAL,
+                              noRecents: const NoRecent(),
+                            ),
+                            swapCategoryAndBottomBar: true,
+                            skinToneConfig: SkinToneConfig(
+                              enabled: true,
+                              dialogBackgroundColor: Color.lerp(
+                                theme.colorScheme.background,
+                                theme.colorScheme.primaryContainer,
+                                0.75,
+                              )!,
+                              indicatorColor: theme.colorScheme.onBackground,
+                            ),
+                            categoryViewConfig: CategoryViewConfig(
+                              iconColor:
+                                  theme.colorScheme.primary.withOpacity(0.5),
+                              iconColorSelected: theme.colorScheme.primary,
+                              backspaceColor: theme.colorScheme.primary,
+                              indicatorColor: theme.colorScheme.primary,
+                              showBackspaceButton: true,
+                            ),
+                            bottomActionBarConfig: BottomActionBarConfig(
+                              backgroundColor: Theme.of(context)
+                                  .colorScheme
+                                  .onInverseSurface,
+                              buttonIconColor:
+                                  theme.colorScheme.primary.withOpacity(0.5),
+                              buttonColor: Colors.transparent,
+                              showBackspaceButton: false,
+                            ),
+                            searchViewConfig: SearchViewConfig(
+                              backgroundColor: Theme.of(context)
+                                  .colorScheme
+                                  .onInverseSurface,
+                              hintText: "Search",
+                            ),
                           ),
                         ),
                         StickerPickerDialog(
