@@ -1,11 +1,12 @@
-import 'package:flutter/material.dart';
+import 'dart:io';
 
 import 'package:emoji_picker_flutter/emoji_picker_flutter.dart';
+import 'package:fluffychat/config/themes.dart';
+import 'package:fluffychat/pages/chat/sticker_picker_dialog.dart';
+import 'package:flutter/material.dart';
 import 'package:flutter_gen/gen_l10n/l10n.dart';
 import 'package:matrix/matrix.dart';
 
-import 'package:fluffychat/config/themes.dart';
-import 'package:fluffychat/pages/chat/sticker_picker_dialog.dart';
 import 'chat.dart';
 
 class ChatEmojiPicker extends StatelessWidget {
@@ -41,6 +42,14 @@ class ChatEmojiPicker extends StatelessWidget {
                           onEmojiSelected: controller.onEmojiSelected,
                           onBackspacePressed: controller.emojiPickerBackspace,
                           config: Config(
+                            emojiSizeMax: 32,
+                            gridPadding: EdgeInsets.zero,
+                            buttonMode: (Platform.isMacOS || Platform.isIOS)
+                                ? ButtonMode.CUPERTINO
+                                : ButtonMode.MATERIAL,
+                            checkPlatformCompatibility: true,
+                            enableSkinTones: true,
+                            recentsLimit: 28,
                             backspaceColor: theme.colorScheme.primary,
                             bgColor:
                                 Theme.of(context).colorScheme.onInverseSurface,
