@@ -58,4 +58,4 @@ Please visit the [Wiki](https://github.com/krille-chan/fluffychat/wiki) for buil
 
 # Original README
 
-You can find the original README.md (from FluffyChat) under new path.
+You can find the original [README.md (from FluffyChat) under new path](./FLUFFY.md).
