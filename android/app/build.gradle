@@ -32,7 +32,7 @@ if (keystorePropertiesFile.exists()) {
 }
 
 android {
-    compileSdkVersion 34
+    compileSdk 34
 
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
@@ -43,7 +43,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "chat.fluffy.fluffychat"
+        applicationId "family.anarres.trinity"
         minSdkVersion 21
         targetSdkVersion 33
         versionCode flutterVersionCode.toInteger()
@@ -66,9 +66,13 @@ android {
         debug {
             signingConfig signingConfigs.debug
             versionNameSuffix "-debug"
+            shrinkResources false // <-- required
+            minifyEnabled true
         }
         release {
             signingConfig signingConfigs.release
+            shrinkResources false // <-- required
+            minifyEnabled true
         }
     }
     // https://stackoverflow.com/a/77494454/8222484

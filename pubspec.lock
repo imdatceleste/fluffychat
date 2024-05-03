@@ -1237,14 +1237,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "3.16.7"
-  native_imaging:
-    dependency: "direct main"
-    description:
-      name: native_imaging
-      sha256: "182ccd8e0815a8a2158500ef66c828c030f6b9e05783e41e22f33bbcfd46a3d5"
-      url: "https://pub.dev"
-    source: hosted
-    version: "0.1.1"
   nested:
     dependency: transitive
     description:
@@ -1601,10 +1593,10 @@ packages:
     dependency: "direct main"
     description:
       name: receive_sharing_intent
-      sha256: "912bebb551bce75a14098891fd750305b30d53eba0d61cc70cd9973be9866e8d"
+      sha256: f127989f8662ea15e193bd1e10605e5a0ab6bb92dffd51f3ce002feb0ce24c93
       url: "https://pub.dev"
     source: hosted
-    version: "1.4.5"
+    version: "1.8.0"
   record:
     dependency: "direct main"
     description:

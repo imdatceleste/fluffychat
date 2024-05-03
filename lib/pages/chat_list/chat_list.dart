@@ -380,7 +380,8 @@ class ChatListController extends State<ChatList>
     if (!PlatformInfos.isMobile) return;
 
     // For sharing images coming from outside the app while the app is in the memory
-    _intentFileStreamSubscription = ReceiveSharingIntent.getMediaStream()
+    _intentFileStreamSubscription = ReceiveSharingIntent.instance
+        .getMediaStream()
         .listen(_processIncomingSharedFiles, onError: print);
 
     // For sharing images coming from outside the app while the app is closed
