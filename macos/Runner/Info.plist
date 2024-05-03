@@ -22,11 +22,37 @@
 	<string>$(FLUTTER_BUILD_NUMBER)</string>
 	<key>LSMinimumSystemVersion</key>
 	<string>$(MACOSX_DEPLOYMENT_TARGET)</string>
+	<key>NSAppleMusicUsageDescription</key>
+	<string>Play audio and voice messages in the app.</string>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>Play audio and voice messages via bluetooth devices.</string>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>Play audio and voice messages on bluetooth devices</string>
+	<key>NSCalendarsUsageDescription</key>
+	<string>Share calendar dates with your contacts in Trinity.</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Open the camera and take a picture to share them with your contacts on Trinity.</string>
+	<key>NSContactsUsageDescription</key>
+	<string>Share contacts with your contacts in Trinity.</string>
 	<key>NSHumanReadableCopyright</key>
 	<string>$(PRODUCT_COPYRIGHT)</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Share your location with your contacts in Trinity.</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Share your location with your contacts in Trinity.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Share your location with your contacts in FluffyChat.</string>
 	<key>NSMainNibFile</key>
 	<string>MainMenu</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Record voice message and share them with your contacts on Trinity.</string>
+	<key>NSMotionUsageDescription</key>
+	<string>Share motions with your contacts in Trinity.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Open photos from your gallery and share them with your contacts on Trinity.</string>
 	<key>NSPrincipalClass</key>
 	<string>NSApplication</string>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>Share data with your contacts in Trinity.</string>
 </dict>
 </plist>
