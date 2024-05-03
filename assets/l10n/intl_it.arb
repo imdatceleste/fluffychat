@@ -614,7 +614,7 @@
     "type": "text",
     "placeholders": {}
   },
-  "fluffychat": "FluffyChat",
+  "fluffychat": "Trinity",
   "@fluffychat": {
     "type": "text",
     "placeholders": {}
@@ -774,7 +774,7 @@
     "type": "text",
     "placeholders": {}
   },
-  "inviteText": "{username} ti ha invitato/a a FluffyChat.\n1. Visita fluffychat.im e installa l'applicazione\n2. Iscriviti o accedi\n3. Apri il collegamento di invito: \n {link}",
+  "inviteText": "{username} ti ha invitato/a a Trinity.\n1. Visita https://trinity.tau-ceti.space/ e installa l'applicazione\n2. Iscriviti o accedi\n3. Apri il collegamento di invito: \n {link}",
   "@inviteText": {
     "type": "text",
     "placeholders": {
@@ -916,7 +916,7 @@
     "type": "text",
     "placeholders": {}
   },
-  "newMessageInFluffyChat": "💬 Nuovo messaggio in FluffyChat",
+  "newMessageInFluffyChat": "💬 Nuovo messaggio in Trinity",
   "@newMessageInFluffyChat": {
     "type": "text",
     "placeholders": {}
@@ -1419,7 +1419,7 @@
     "type": "text",
     "placeholders": {}
   },
-  "title": "FluffyChat",
+  "title": "Trinity",
   "@title": {
     "description": "Title for the application",
     "type": "text",
@@ -1863,7 +1863,7 @@
   "@widgetJitsi": {},
   "messageType": "Tipo del Messaggio",
   "@messageType": {},
-  "indexedDbErrorLong": "Sfortunatamente l'archiviazione dei messaggi non è abilitata in modalità privata per impostazione predefinita.\nPer favore visita\n - about:config\n - imposta dom.indexedDB.privateBrowsing.enabled su true\nAltrimenti, non è possibile eseguire FluffyChat.",
+  "indexedDbErrorLong": "Sfortunatamente l'archiviazione dei messaggi non è abilitata in modalità privata per impostazione predefinita.\nPer favore visita\n - about:config\n - imposta dom.indexedDB.privateBrowsing.enabled su true\nAltrimenti, non è possibile eseguire Trinity.",
   "@indexedDbErrorLong": {},
   "oneClientLoggedOut": "Uno dei tuoi client è stato disconnesso",
   "@oneClientLoggedOut": {},
@@ -1932,7 +1932,7 @@
   "@sendOnEnter": {},
   "youRejectedTheInvitation": "Hai rifiutato l'invito",
   "@youRejectedTheInvitation": {},
-  "otherCallingPermissions": "Microfono, fotocamera e altri permessi di FluffyChat",
+  "otherCallingPermissions": "Microfono, fotocamera e altri permessi di Trinity",
   "@otherCallingPermissions": {},
   "messagesStyle": "Messaggi:",
   "@messagesStyle": {},
@@ -1944,7 +1944,7 @@
   "@newSpaceDescription": {},
   "chatDescription": "Descrizione della chat",
   "@chatDescription": {},
-  "callingAccountDetails": "Dai l'autorizzazione a FluffyChat di usare l'app di composizione Android nativa.",
+  "callingAccountDetails": "Dai l'autorizzazione a Trinity di usare l'app di composizione Android nativa.",
   "@callingAccountDetails": {},
   "enterSpace": "Unirsi allo spazio",
   "@enterSpace": {},
@@ -2108,7 +2108,7 @@
       "user": {}
     }
   },
-  "appearOnTopDetails": "Permetti all'app di apparire in alto (non necessario se hai già impostato Fluffychat come account di chiamata)",
+  "appearOnTopDetails": "Permetti all'app di apparire in alto (non necessario se hai già impostato Trinity come account di chiamata)",
   "@appearOnTopDetails": {},
   "enterRoom": "Unirsi alla stanza",
   "@enterRoom": {},

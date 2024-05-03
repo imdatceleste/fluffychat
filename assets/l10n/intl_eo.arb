@@ -727,7 +727,7 @@
         "type": "text",
         "placeholders": {}
     },
-    "fluffychat": "FluffyChat",
+    "fluffychat": "Trinity",
     "@fluffychat": {
         "type": "text",
         "placeholders": {}
@@ -887,7 +887,7 @@
         "type": "text",
         "placeholders": {}
     },
-    "inviteText": "{username} invitis vin al FluffyChat. \n1. Instalu la aplikaĵon FluffyChat: https://fluffychat.im \n2. Registriĝu aŭ salutu \n3. Malfermu la invitan ligilon: {link}",
+    "inviteText": "{username} invitis vin al Trinity. \n1. Instalu la aplikaĵon Trinity: https://trinity.tau-ceti.space/ \n2. Registriĝu aŭ salutu \n3. Malfermu la invitan ligilon: {link}",
     "@inviteText": {
         "type": "text",
         "placeholders": {
@@ -1029,7 +1029,7 @@
         "type": "text",
         "placeholders": {}
     },
-    "newMessageInFluffyChat": "Nova mesaĝo en FluffyChat",
+    "newMessageInFluffyChat": "Nova mesaĝo en Trinity",
     "@newMessageInFluffyChat": {
         "type": "text",
         "placeholders": {}
@@ -1064,7 +1064,7 @@
         "type": "text",
         "placeholders": {}
     },
-    "noGoogleServicesWarning": "Ŝajnas, ke via telefono ne havas servojn de Google. Tio estas bona decido por via privateco! Por ricevadi pasivajn sciigojn en FluffyChat, ni rekomendas, ke vi uzu la https://microg.org/ aŭ https://unifiedpush.org/.",
+    "noGoogleServicesWarning": "Ŝajnas, ke via telefono ne havas servojn de Google. Tio estas bona decido por via privateco! Por ricevadi pasivajn sciigojn en Trinity, ni rekomendas, ke vi uzu la https://microg.org/ aŭ https://unifiedpush.org/.",
     "@noGoogleServicesWarning": {
         "type": "text",
         "placeholders": {}
@@ -1607,7 +1607,7 @@
         "type": "text",
         "placeholders": {}
     },
-    "title": "FluffyChat",
+    "title": "Trinity",
     "@title": {
         "description": "Title for the application",
         "type": "text",

@@ -733,7 +733,7 @@
     "type": "text",
     "placeholders": {}
   },
-  "fluffychat": "FluffyChat",
+  "fluffychat": "Trinity",
   "@fluffychat": {
     "type": "text",
     "placeholders": {}
@@ -893,7 +893,7 @@
     "type": "text",
     "placeholders": {}
   },
-  "inviteText": "{username} hat Dich zu FluffyChat eingeladen. \n1. Gehe auf fluffychat.im und installiere die App \n2. Melde Dich in der App an \n3. Öffne den Einladungslink: \n {link}",
+  "inviteText": "{username} hat Dich zu Trinity eingeladen. \n1. Gehe auf https://trinity.tau-ceti.space/ und installiere die App \n2. Melde Dich in der App an \n3. Öffne den Einladungslink: \n {link}",
   "@inviteText": {
     "type": "text",
     "placeholders": {
@@ -1045,7 +1045,7 @@
     "type": "text",
     "placeholders": {}
   },
-  "newMessageInFluffyChat": "💬 Neue Nachricht in FluffyChat",
+  "newMessageInFluffyChat": "💬 Neue Nachricht in Trinity",
   "@newMessageInFluffyChat": {
     "type": "text",
     "placeholders": {}
@@ -1632,7 +1632,7 @@
     "type": "text",
     "placeholders": {}
   },
-  "title": "FluffyChat",
+  "title": "Trinity",
   "@title": {
     "description": "Title for the application",
     "type": "text",
@@ -2161,7 +2161,7 @@
   "@storeInSecureStorageDescription": {},
   "storeInAppleKeyChain": "Im Apple KeyChain speichern",
   "@storeInAppleKeyChain": {},
-  "indexedDbErrorLong": "Die Nachrichtenspeicherung ist im privaten Modus standardmäßig leider nicht aktiviert.\nBitte besuche\n- about:config\n- Setze dom.indexedDB.privateBrowsing.enabled auf true\nAndernfalls ist es nicht möglich, FluffyChat auszuführen.",
+  "indexedDbErrorLong": "Die Nachrichtenspeicherung ist im privaten Modus standardmäßig leider nicht aktiviert.\nBitte besuche\n- about:config\n- Setze dom.indexedDB.privateBrowsing.enabled auf true\nAndernfalls ist es nicht möglich, Trinity auszuführen.",
   "@indexedDbErrorLong": {},
   "confirmMatrixId": "Bitte bestätigen deine Matrix-ID, um dein Konto zu löschen.",
   "@confirmMatrixId": {},
@@ -2192,11 +2192,11 @@
   "@callingPermissions": {},
   "callingAccount": "Anrufkonto",
   "@callingAccount": {},
-  "callingAccountDetails": "Ermöglicht FluffyChat, die native Android-Dialer-App zu verwenden.",
+  "callingAccountDetails": "Ermöglicht Trinity, die native Android-Dialer-App zu verwenden.",
   "@callingAccountDetails": {},
   "appearOnTop": "Oben erscheinen",
   "@appearOnTop": {},
-  "otherCallingPermissions": "Mikrofon, Kamera und andere FluffyChat-Berechtigungen",
+  "otherCallingPermissions": "Mikrofon, Kamera und andere Trinity-Berechtigungen",
   "@otherCallingPermissions": {},
   "whyIsThisMessageEncrypted": "Warum ist diese Nachricht nicht lesbar?",
   "@whyIsThisMessageEncrypted": {},

@@ -738,7 +738,7 @@
     "type": "text",
     "placeholders": {}
   },
-  "fluffychat": "FluffyChat",
+  "fluffychat": "Trinity",
   "@fluffychat": {
     "type": "text",
     "placeholders": {}
@@ -898,7 +898,7 @@
     "type": "text",
     "placeholders": {}
   },
-  "inviteText": "{username} convidoute a FluffyChat.\n1. Visita fluffychat.im e instala a app\n2. Crea unha conta ou Accede\n3. Abre a ligazón do convite: \n {link}",
+  "inviteText": "{username} convidoute a Trinity.\n1. Visita https://trinity.tau-ceti.space/ e instala a app\n2. Crea unha conta ou Accede\n3. Abre a ligazón do convite: \n {link}",
   "@inviteText": {
     "type": "text",
     "placeholders": {
@@ -1050,7 +1050,7 @@
     "type": "text",
     "placeholders": {}
   },
-  "newMessageInFluffyChat": "💬 Nova mensaxe en FluffyChat",
+  "newMessageInFluffyChat": "💬 Nova mensaxe en Trinity",
   "@newMessageInFluffyChat": {
     "type": "text",
     "placeholders": {}
@@ -1645,7 +1645,7 @@
     "type": "text",
     "placeholders": {}
   },
-  "title": "FluffyChat",
+  "title": "Trinity",
   "@title": {
     "description": "Title for the application",
     "type": "text",
@@ -2157,7 +2157,7 @@
   "@dehydrateTor": {},
   "indexedDbErrorTitle": "Problemas no modo privado",
   "@indexedDbErrorTitle": {},
-  "indexedDbErrorLong": "A almacenaxe de mensaxes non está activada por defecto no modo privado.\nMira en\n- about:config\n- establece dom.indexedDB.privateBrowsing.enabled como true\nSe non, non é posible executar FluffyChat.",
+  "indexedDbErrorLong": "A almacenaxe de mensaxes non está activada por defecto no modo privado.\nMira en\n- about:config\n- establece dom.indexedDB.privateBrowsing.enabled como true\nSe non, non é posible executar Trinity.",
   "@indexedDbErrorLong": {},
   "user": "Usuaria",
   "@user": {},
@@ -2182,7 +2182,7 @@
   "@noKeyForThisMessage": {},
   "appearOnTop": "Aparecer arriba",
   "@appearOnTop": {},
-  "otherCallingPermissions": "Micrófono, cámara e outros permisos para FluffyChat",
+  "otherCallingPermissions": "Micrófono, cámara e outros permisos para Trinity",
   "@otherCallingPermissions": {},
   "newGroup": "Novo grupo",
   "@newGroup": {},
@@ -2196,9 +2196,9 @@
   "@callingPermissions": {},
   "callingAccount": "Conta que chama",
   "@callingAccount": {},
-  "callingAccountDetails": "Permítelle a FluffyChat usar a app marcador nativa de android.",
+  "callingAccountDetails": "Permítelle a Trinity usar a app marcador nativa de android.",
   "@callingAccountDetails": {},
-  "appearOnTopDetails": "Permítelle á app aparecer por enrriba (non é preciso se xa configuraches FluffyChat como unha conta para chamadas)",
+  "appearOnTopDetails": "Permítelle á app aparecer por enrriba (non é preciso se xa configuraches Trinity como unha conta para chamadas)",
   "@appearOnTopDetails": {},
   "enterSpace": "Entrar no espazo",
   "@enterSpace": {},
@@ -2206,7 +2206,7 @@
   "@enterRoom": {},
   "allSpaces": "Todos os espazos",
   "@allSpaces": {},
-  "screenSharingDetail": "Estás compartindo a túa pantalla en FluffyChat",
+  "screenSharingDetail": "Estás compartindo a túa pantalla en Trinity",
   "@screenSharingDetail": {},
   "numChats": "{number} conversas",
   "@numChats": {

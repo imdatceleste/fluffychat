@@ -738,7 +738,7 @@
     "type": "text",
     "placeholders": {}
   },
-  "fluffychat": "FluffyChat",
+  "fluffychat": "Trinity",
   "@fluffychat": {
     "type": "text",
     "placeholders": {}
@@ -898,7 +898,7 @@
     "type": "text",
     "placeholders": {}
   },
-  "inviteText": "{username} kutsus sind kasutama Matrix'i-põhist suhtlusrakendust FluffyChat. \n1. Ava fluffychat.im ja paigalda FluffyChat'i rakendus \n2. Liitu kasutajaks või logi sisse olemasoleva Matrix'i kasutajakontoga\n3. Ava kutse link: \n {link}",
+  "inviteText": "{username} kutsus sind kasutama Matrix'i-põhist suhtlusrakendust Trinity. \n1. Ava https://trinity.tau-ceti.space/ ja paigalda Trinity'i rakendus \n2. Liitu kasutajaks või logi sisse olemasoleva Matrix'i kasutajakontoga\n3. Ava kutse link: \n {link}",
   "@inviteText": {
     "type": "text",
     "placeholders": {
@@ -1050,7 +1050,7 @@
     "type": "text",
     "placeholders": {}
   },
-  "newMessageInFluffyChat": "💬 Uus sõnum FluffyChat'i vahendusel",
+  "newMessageInFluffyChat": "💬 Uus sõnum Trinity'i vahendusel",
   "@newMessageInFluffyChat": {
     "type": "text",
     "placeholders": {}
@@ -1085,7 +1085,7 @@
     "type": "text",
     "placeholders": {}
   },
-  "noGoogleServicesWarning": "Tundub, et sinu nutiseadmes pole Firebase Cloud Messaging teenuseid. Sinu privaatsuse mõttes on see kindlasti hea otsus! Kui sa soovid FluffyChat'is näha tõuketeavitusi, siis soovitame, et selle jaoks kasutad ntfy liidestust. Kasutades ntfy'd või mõnda muud Unified Push standardil põhinevat liidestust saad tõuketeavitusi turvalisel moel. Ntfy rakendus on saadaval nii PlayStore kui F-Droid'i rakendusepoodides.",
+  "noGoogleServicesWarning": "Tundub, et sinu nutiseadmes pole Firebase Cloud Messaging teenuseid. Sinu privaatsuse mõttes on see kindlasti hea otsus! Kui sa soovid Trinity'is näha tõuketeavitusi, siis soovitame, et selle jaoks kasutad ntfy liidestust. Kasutades ntfy'd või mõnda muud Unified Push standardil põhinevat liidestust saad tõuketeavitusi turvalisel moel. Ntfy rakendus on saadaval nii PlayStore kui F-Droid'i rakendusepoodides.",
   "@noGoogleServicesWarning": {
     "type": "text",
     "placeholders": {}
@@ -1645,7 +1645,7 @@
     "type": "text",
     "placeholders": {}
   },
-  "title": "FluffyChat",
+  "title": "Trinity",
   "@title": {
     "description": "Title for the application",
     "type": "text",
@@ -2155,7 +2155,7 @@
   "@dehydrateWarning": {},
   "dehydrateTorLong": "Kui oled TOR'i võrgu kasutaja, siis enne akna sulgemist palun ekspordi viimase sessiooni andmed.",
   "@dehydrateTorLong": {},
-  "indexedDbErrorLong": "Privaatse akna puhul andmete salvestamine vaikimisi pole kasutusel.\nPalun toimi alljärgnevalt:\n- ava about:config\n- määra dom.indexedDB.privateBrowsing.enabled väärtuseks true\nVastasel juhul sa ei saa FluffyChat'i kasutada.",
+  "indexedDbErrorLong": "Privaatse akna puhul andmete salvestamine vaikimisi pole kasutusel.\nPalun toimi alljärgnevalt:\n- ava about:config\n- määra dom.indexedDB.privateBrowsing.enabled väärtuseks true\nVastasel juhul sa ei saa Trinity'i kasutada.",
   "@indexedDbErrorLong": {},
   "hydrate": "Taasta varundatud failist",
   "@hydrate": {},
@@ -2182,11 +2182,11 @@
   "@noKeyForThisMessage": {},
   "callingPermissions": "Helistamise õigused",
   "@callingPermissions": {},
-  "callingAccountDetails": "Võimaldab FluffyChat'il kasutada Androidi helistamisrakendust.",
+  "callingAccountDetails": "Võimaldab Trinity'il kasutada Androidi helistamisrakendust.",
   "@callingAccountDetails": {},
   "appearOnTop": "Luba pealmise rakendusena",
   "@appearOnTop": {},
-  "otherCallingPermissions": "Mikrofoni, kaamera ja muud FluffyChat'i õigused",
+  "otherCallingPermissions": "Mikrofoni, kaamera ja muud Trinity'i õigused",
   "@otherCallingPermissions": {},
   "newGroup": "Uus jututuba",
   "@newGroup": {},
@@ -2196,7 +2196,7 @@
   "@enterSpace": {},
   "enterRoom": "Ava jututuba",
   "@enterRoom": {},
-  "appearOnTopDetails": "Sellega lubad rakendust avada kõige pealmisena (pole vajalik, kui Fluffychat on juba seadistatud toimima helistamiskontoga)",
+  "appearOnTopDetails": "Sellega lubad rakendust avada kõige pealmisena (pole vajalik, kui Trinity on juba seadistatud toimima helistamiskontoga)",
   "@appearOnTopDetails": {},
   "callingAccount": "Helistamiskonto",
   "@callingAccount": {},

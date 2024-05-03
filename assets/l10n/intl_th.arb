@@ -144,7 +144,7 @@
             "username": {}
         }
     },
-    "fluffychat": "FluffyChat",
+    "fluffychat": "Trinity",
     "@fluffychat": {
         "type": "text",
         "placeholders": {}

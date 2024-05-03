@@ -1,23 +1,21 @@
-![Screenshot](https://github.com/krille-chan/fluffychat/blob/main/assets/banner_transparent.png?raw=true)
+![Screenshot](./assets/banner_transparent.png?raw=true)
 
-[FluffyChat](https://fluffychat.im) is an open source, nonprofit and cute [[matrix](https://matrix.org)] client written in [Flutter](https://flutter.dev). The goal of the app is to create an easy to use instant messenger which is open source and accessible for everyone.
+[Trinity](https://trinity.tau-ceti.space) is an open source, nonprofit and cute [[matrix](https://matrix.org)] client written in [Flutter](https://flutter.dev). 
 
-### Links:
+**Trinity** is based on the equallly cute client named [FluffyChat](https://fluffychat.im/).
+
+The goal of the app is to create an easy to use instant messenger which is open source and accessible for everyone.
+
+# Links:
 
 - 🌐 [[Weblate] Translate FluffyChat into your language](https://hosted.weblate.org/projects/fluffychat/)
-- 🌍 [[m] Join the community](https://matrix.to/#/#fluffychat:matrix.org)
-- 📰 [[Mastodon] Get updates on social media](https://mastodon.art/@krille)
-- 🖥️ [[Famedly] Server hosting and professional support](https://famedly.com/kontakt)
-- 💝 [[Liberapay] Support FluffyChat development](https://de.liberapay.com/KrilleChritzelius)
+- 📰 [[Mastodon] Get updates on social media](https://tau-ceti.space/@ics)
 
-<a href='https://ko-fi.com/C1C86VN53' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi5.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
+# Screenshots:
 
-### Screenshots:
-
-![Screenshot](https://github.com/krille-chan/fluffychat/blob/main/docs/screenshots/product.jpeg?raw=true)
+--- Coming ---
 
 # Features
-
 - 📩 Send all kinds of messages, images and files
 - 🎙️ Voice messages
 - 📍 Location sharing
@@ -43,7 +41,7 @@
 
 Please visit the website for installation instructions:
 
-- https://fluffychat.im
+- https://trinity.tau-ceti.space/ (Upcoming)
 
 # How to build
 
@@ -54,16 +52,10 @@ Please visit the [Wiki](https://github.com/krille-chan/fluffychat/wiki) for buil
 
 # Special thanks
 
-* <a href="https://github.com/fabiyamada">Fabiyamada</a> is a graphics designer and has made the fluffychat logo and the banner. Big thanks for her great designs.
+* <a href="https://github.com/krille-chan">Krille-Chan</a> for providing the original FluffyChat as OSS
 
-* <a href="https://github.com/advocatux">Advocatux</a> has made the Spanish translation with great love and care. He always stands by my side and supports my work with great commitment.
+* **Tally** for providing the Trinity artwork.
 
-* Thanks to MTRNord and Sorunome for developing.
+# Original README
 
-* Also thanks to all translators and testers! With your help, fluffychat is now available in more than 12 languages.
-
-* <a href="https://github.com/googlefonts/noto-emoji/">Noto Emoji Font</a> for the awesome emojis.
-
-* <a href="https://github.com/madsrh/WoodenBeaver">WoodenBeaver</a> sound theme for the notification sound.
-
-* The Matrix Foundation for making and maintaining the [emoji translations](https://github.com/matrix-org/matrix-spec/blob/main/data-definitions/sas-emoji.json) used for emoji verification, licensed Apache 2.0
+You can find the original README.md (from FluffyChat) under new path.

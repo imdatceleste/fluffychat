@@ -44,7 +44,7 @@ android {
 
     defaultConfig {
         applicationId "family.anarres.trinity"
-        minSdkVersion 21
+        minSdkVersion 27
         targetSdkVersion 33
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName

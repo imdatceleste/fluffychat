@@ -158,7 +158,7 @@
   },
   "messageType": "Ziņas veids",
   "@messageType": {},
-  "indexedDbErrorLong": "Diemžēl ziņu krātuve pēc noklusējuma nav iespējota privātajā režīmā.\nLūgums apmeklēt\n - about:config\n - iestatīt dom.indexedDB.privateBrowsing.enabled kā true\nPretējā gadījumā nav iespējams palaist FluffyChat.",
+  "indexedDbErrorLong": "Diemžēl ziņu krātuve pēc noklusējuma nav iespējota privātajā režīmā.\nLūgums apmeklēt\n - about:config\n - iestatīt dom.indexedDB.privateBrowsing.enabled kā true\nPretējā gadījumā nav iespējams palaist Trinity.",
   "@indexedDbErrorLong": {},
   "oneClientLoggedOut": "Viens no klientiem ir atteicies",
   "@oneClientLoggedOut": {},
@@ -177,7 +177,7 @@
       "targetName": {}
     }
   },
-  "title": "FluffyChat",
+  "title": "Trinity",
   "@title": {
     "description": "Title for the application",
     "type": "text",
@@ -472,7 +472,7 @@
   },
   "youRejectedTheInvitation": "Tu noraidīji uzaicinājumu",
   "@youRejectedTheInvitation": {},
-  "otherCallingPermissions": "Mikrofons, kamera un citas FluffyChat atļaujas",
+  "otherCallingPermissions": "Mikrofons, kamera un citas Trinity atļaujas",
   "@otherCallingPermissions": {},
   "messagesStyle": "Ziņas:",
   "@messagesStyle": {},
@@ -498,7 +498,7 @@
   "@newSpaceDescription": {},
   "chatDescription": "Tērzēšanas apraksts",
   "@chatDescription": {},
-  "callingAccountDetails": "Ļauj FluffyChat izmantot iebūvēto Android zvanīšanas lietotni.",
+  "callingAccountDetails": "Ļauj Trinity izmantot iebūvēto Android zvanīšanas lietotni.",
   "@callingAccountDetails": {},
   "next": "Nākamais",
   "@next": {
@@ -650,7 +650,7 @@
     "type": "text",
     "placeholders": {}
   },
-  "inviteText": "{username} uzaicināja pievienoties FluffyChat.\n1. Jāapmeklē fluffychat.im un jāuzstāda lietotne \n2. Jāizveido konts vai jāpiesakās \n3. Jāatver uzaicinājuma saite: \n {link}",
+  "inviteText": "{username} uzaicināja pievienoties Trinity.\n1. Jāapmeklē https://trinity.tau-ceti.space/ un jāuzstāda lietotne \n2. Jāizveido konts vai jāpiesakās \n3. Jāatver uzaicinājuma saite: \n {link}",
   "@inviteText": {
     "type": "text",
     "placeholders": {
@@ -1070,7 +1070,7 @@
     "type": "text",
     "placeholders": {}
   },
-  "newMessageInFluffyChat": "💬 Jauna ziņa FluffyChat",
+  "newMessageInFluffyChat": "💬 Jauna ziņa Trinity",
   "@newMessageInFluffyChat": {
     "type": "text",
     "placeholders": {}
@@ -1380,7 +1380,7 @@
     "type": "text",
     "placeholders": {}
   },
-  "appearOnTopDetails": "Ļauj lietotnei parādīties virspusē (nav nepieciešams, ja FluffyChat jau ir iestatīts kā zvanīšanas konts)",
+  "appearOnTopDetails": "Ļauj lietotnei parādīties virspusē (nav nepieciešams, ja Trinity jau ir iestatīts kā zvanīšanas konts)",
   "@appearOnTopDetails": {},
   "roomHasBeenUpgraded": "Istaba tika atjaunināta",
   "@roomHasBeenUpgraded": {
@@ -1628,7 +1628,7 @@
   },
   "unverified": "Neapliecināta",
   "@unverified": {},
-  "fluffychat": "FluffyChat",
+  "fluffychat": "Trinity",
   "@fluffychat": {
     "type": "text",
     "placeholders": {}
@@ -2387,7 +2387,7 @@
   },
   "pinMessage": "Piespraust istabai",
   "@pinMessage": {},
-  "screenSharingDetail": "Tu kopīgo savu ekrānu FluffyChat",
+  "screenSharingDetail": "Tu kopīgo savu ekrānu Trinity",
   "@screenSharingDetail": {},
   "muteChat": "Apklusināt tērzēšanu",
   "@muteChat": {

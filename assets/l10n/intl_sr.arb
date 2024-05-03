@@ -691,7 +691,7 @@
         "type": "text",
         "placeholders": {}
     },
-    "fluffychat": "FluffyChat",
+    "fluffychat": "Trinity",
     "@fluffychat": {
         "type": "text",
         "placeholders": {}
@@ -851,7 +851,7 @@
         "type": "text",
         "placeholders": {}
     },
-    "inviteText": "{username} вас позива у FluffyChat. \n1. Инсталирајте FluffyChat: https://fluffychat.im \n2. Региструјте се или пријавите \n3. Отворите везу позивнице: {link}",
+    "inviteText": "{username} вас позива у Trinity. \n1. Инсталирајте Trinity: https://trinity.tau-ceti.space/ \n2. Региструјте се или пријавите \n3. Отворите везу позивнице: {link}",
     "@inviteText": {
         "type": "text",
         "placeholders": {
@@ -993,7 +993,7 @@
         "type": "text",
         "placeholders": {}
     },
-    "newMessageInFluffyChat": "Нова порука — FluffyChat",
+    "newMessageInFluffyChat": "Нова порука — Trinity",
     "@newMessageInFluffyChat": {
         "type": "text",
         "placeholders": {}
@@ -1028,7 +1028,7 @@
         "type": "text",
         "placeholders": {}
     },
-    "noGoogleServicesWarning": "Чини се да немате Гугл услуге на телефону. То је добра одлука за вашу приватност! Да би се протурале нотификације у FluffyChat, препоручујемо коришћење https://microg.org/ или https://unifiedpush.org/",
+    "noGoogleServicesWarning": "Чини се да немате Гугл услуге на телефону. То је добра одлука за вашу приватност! Да би се протурале нотификације у Trinity, препоручујемо коришћење https://microg.org/ или https://unifiedpush.org/",
     "@noGoogleServicesWarning": {
         "type": "text",
         "placeholders": {}
@@ -1536,7 +1536,7 @@
         "type": "text",
         "placeholders": {}
     },
-    "title": "FluffyChat",
+    "title": "Trinity",
     "@title": {
         "description": "Title for the application",
         "type": "text",

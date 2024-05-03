@@ -1048,7 +1048,7 @@
     },
     "homeserver": "Hem-servitor",
     "@homeserver": {},
-    "fluffychat": "FluffyChat",
+    "fluffychat": "Trinity",
     "@fluffychat": {
         "type": "text",
         "placeholders": {}
@@ -1090,7 +1090,7 @@
         "type": "text",
         "placeholders": {}
     },
-    "title": "FluffyChat",
+    "title": "Trinity",
     "@title": {
         "description": "Title for the application",
         "type": "text",
