@@ -90,6 +90,7 @@ abstract class FluffyThemes {
       ),
       textSelectionTheme: TextSelectionThemeData(
         selectionColor: colorScheme.onBackground.withAlpha(128),
+        selectionHandleColor: colorScheme.secondary,
       ),
       inputDecorationTheme: InputDecorationTheme(
         border: OutlineInputBorder(
@@ -140,6 +141,9 @@ abstract class FluffyThemes {
       ),
       elevatedButtonTheme: ElevatedButtonThemeData(
         style: ElevatedButton.styleFrom(
+          backgroundColor: colorScheme.secondaryContainer,
+          foregroundColor: colorScheme.onSecondaryContainer,
+          elevation: 0,
           padding: const EdgeInsets.all(16),
           textStyle: const TextStyle(fontSize: 16),
           shape: RoundedRectangleBorder(

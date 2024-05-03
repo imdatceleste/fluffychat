@@ -74,7 +74,7 @@ class HomeserverPickerController extends State<HomeserverPicker> {
     if (homeserverController.text == _lastCheckedUrl) return;
     _lastCheckedUrl = homeserverController.text;
     setState(() {
-      error = _rawLoginTypes = loginHomeserverSummary = null;
+      error = _rawLoginTypes = loginFlows = null;
       isLoading = true;
     });
 
@@ -84,7 +84,8 @@ class HomeserverPickerController extends State<HomeserverPicker> {
         homeserver = Uri.https(homeserverController.text, '');
       }
       final client = Matrix.of(context).getLoginClient();
-      loginHomeserverSummary = await client.checkHomeserver(homeserver);
+      final (_, _, loginFlows) = await client.checkHomeserver(homeserver);
+      this.loginFlows = loginFlows;
       if (supportsSso) {
         _rawLoginTypes = await client.request(
           RequestType.GET,
@@ -100,11 +101,10 @@ class HomeserverPickerController extends State<HomeserverPicker> {
     }
   }
 
-  HomeserverSummary? loginHomeserverSummary;
+  List<LoginFlow>? loginFlows;
 
   bool _supportsFlow(String flowType) =>
-      loginHomeserverSummary?.loginFlows.any((flow) => flow.type == flowType) ??
-      false;
+      loginFlows?.any((flow) => flow.type == flowType) ?? false;
 
   bool get supportsSso => _supportsFlow('m.login.sso');
 
@@ -117,7 +117,11 @@ class HomeserverPickerController extends State<HomeserverPicker> {
 
   void ssoLoginAction(String? id) async {
     final redirectUrl = kIsWeb
-        ? '${html.window.origin!}/auth.html'
+        ? Uri.parse(html.window.location.href)
+            .resolveUri(
+              Uri(pathSegments: ['auth.html']),
+            )
+            .toString()
         : isDefaultPlatform
             ? '${AppConfig.appOpenUrlScheme.toLowerCase()}://login'
             : 'http://localhost:3001//login';
